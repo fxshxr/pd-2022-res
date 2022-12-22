@@ -1,0 +1,5926 @@
+2022-10-03T09:27:20+03:0000001	C8	DEBUG	1.15Mb	1.50Mb	
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-log/wa-installer',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000002	C8	DEBUG	1.15Mb	1.50Mb	
+waInstaller::protect
+{------------------------------------------------------------
+array (
+  'path' => 'wa-log/wa-installer',
+  'htaccess' => 'wa-log/.htaccess',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000003	C8	DEBUG	1.15Mb	1.50Mb	
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'unkown_none',
+  'state_heartbeat' => false,
+  'thread_id' => 'C8',
+  'chunk_id' => NULL,
+  'stage_status' => 'none',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.352845,
+  'stage_start_time' => 1664778440.352845,
+  'stage_performance' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000004	C8	DEBUG	1.17Mb	1.50Mb	
+waInstaller::formatUpdateList tree
+{------------------------------------------------------------
+array (
+  'targets' => 
+  array (
+    0 => 'wa-content/',
+    1 => 'wa-system/',
+    2 => 'wa-apps/installer/',
+    3 => 'wa-apps/site/',
+    4 => 'wa-apps/team/',
+    5 => 'wa-widgets/clock/',
+    6 => 'wa-widgets/currencyquotes/',
+    7 => 'wa-widgets/news/',
+    8 => 'wa-widgets/weather/',
+  ),
+  'update_list' => 
+  array (
+    0 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-content.tar.gz',
+      'target' => 'wa-content/',
+      'slug' => 'wa-content',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-content/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    1 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-system.tar.gz',
+      'target' => 'wa-system/',
+      'slug' => 'wa-system',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-system/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    2 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/installer.tar.gz',
+      'target' => 'wa-apps/installer/',
+      'slug' => 'wa-apps/installer',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/installer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    3 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/site.tar.gz',
+      'target' => 'wa-apps/site/',
+      'slug' => 'wa-apps/site',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/site/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    4 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/team.tar.gz',
+      'target' => 'wa-apps/team/',
+      'slug' => 'wa-apps/team',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/team/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    5 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/clock.tar.gz',
+      'target' => 'wa-widgets/clock/',
+      'slug' => 'wa-widgets/clock',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/clock/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    6 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/currencyquotes.tar.gz',
+      'target' => 'wa-widgets/currencyquotes/',
+      'slug' => 'wa-widgets/currencyquotes',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/currencyquotes/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    7 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/news.tar.gz',
+      'target' => 'wa-widgets/news/',
+      'slug' => 'wa-widgets/news',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/news/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+    8 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/weather.tar.gz',
+      'target' => 'wa-widgets/weather/',
+      'slug' => 'wa-widgets/weather',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/weather/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+    ),
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000005	C8	DEBUG	1.17Mb	1.50Mb	
+callback
+{------------------------------------------------------------
+array (
+  0 => 
+  array (
+    'file' => '/wa-installer/lib/classes/wainstaller.class.php:162',
+    'function' => 'waInstaller->envSet()',
+  ),
+  1 => 
+  array (
+    'file' => '/wa-installer/install.php:551',
+    'function' => 'waInstaller->update(Array(9))',
+  ),
+  2 => 
+  array (
+    'file' => '/install.php:4',
+    'function' => 'require_once',
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000006	C8	TRACE	1.18Mb	1.50Mb	
+Register ob error handler
+{------------------------------------------------------------
+true
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000007	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.0709540843963623,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.423786,
+  'stage_start_time' => 1664778440.423786,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000008	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-content/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000009	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::protect
+{------------------------------------------------------------
+array (
+  'path' => 'wa-data/protected/wa-installer/C8/update/wa-content/',
+  'htaccess' => 'wa-data/protected/.htaccess',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000010	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.008362054824829102,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.432144,
+  'stage_start_time' => 1664778440.432144,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000011	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.00472712516784668,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.436862,
+  'stage_start_time' => 1664778440.436862,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000012	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-system/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000013	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.008336067199707031,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.445194,
+  'stage_start_time' => 1664778440.445194,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000014	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.0077610015869140625,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.452945,
+  'stage_start_time' => 1664778440.452946,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000015	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/clock/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000016	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.008651971817016602,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.461593,
+  'stage_start_time' => 1664778440.461593,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000017	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.006308078765869141,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.467892,
+  'stage_start_time' => 1664778440.467892,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000018	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/currencyquotes/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000019	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.007667064666748047,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.475556,
+  'stage_start_time' => 1664778440.475556,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000020	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.006808042526245117,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.482355,
+  'stage_start_time' => 1664778440.482355,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000021	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/news/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000022	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.008139848709106445,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.490492,
+  'stage_start_time' => 1664778440.490492,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000023	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.006590843200683594,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.497073,
+  'stage_start_time' => 1664778440.497073,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000024	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/weather/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000025	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.008524179458618164,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.505595,
+  'stage_start_time' => 1664778440.505595,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000026	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.0065610408782958984,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.512147,
+  'stage_start_time' => 1664778440.512147,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000027	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-apps/installer/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000028	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.00881814956665039,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.520961,
+  'stage_start_time' => 1664778440.520962,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000029	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.005972862243652344,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.526921,
+  'stage_start_time' => 1664778440.526922,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000030	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-apps/site/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000031	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.008908987045288086,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.535827,
+  'stage_start_time' => 1664778440.535827,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000032	C8	TRACE	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.006637096405029297,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.542455,
+  'stage_start_time' => 1664778440.542455,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000033	C8	DEBUG	1.19Mb	1.50Mb	prepare_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-data/protected/wa-installer/C8/update/wa-apps/team/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000034	C8	TRACE	1.19Mb	1.50Mb	prepare_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'prepare',
+  'state_heartbeat' => 0.009351968765258789,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.551803,
+  'stage_start_time' => 1664778440.551803,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000035	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007116794586181641,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.558911,
+  'stage_start_time' => 1664778440.558912,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000036	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000037	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007368803024291992,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.566277,
+  'stage_start_time' => 1664778440.566277,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000038	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-content.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000039	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-content.tar.gz
+2022-10-03T09:27:20+03:0000040	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007643938064575195,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.573919,
+  'stage_start_time' => 1664778440.573919,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000041	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007928848266601562,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.581839,
+  'stage_start_time' => 1664778440.581839,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000042	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000043	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007573843002319336,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.58941,
+  'stage_start_time' => 1664778440.58941,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000044	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-system.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000045	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-system.tar.gz
+2022-10-03T09:27:20+03:0000046	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007576942443847656,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.596984,
+  'stage_start_time' => 1664778440.596984,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000047	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007707118988037109,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.604682,
+  'stage_start_time' => 1664778440.604682,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000048	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000049	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008060932159423828,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.61274,
+  'stage_start_time' => 1664778440.61274,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000050	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/clock.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000051	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-widgets/clock.tar.gz
+2022-10-03T09:27:20+03:0000052	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007870912551879883,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.620609,
+  'stage_start_time' => 1664778440.620609,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000053	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007812976837158203,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.62841,
+  'stage_start_time' => 1664778440.62841,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000054	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000055	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007725954055786133,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.636133,
+  'stage_start_time' => 1664778440.636133,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000056	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/currencyquotes.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000057	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-widgets/currencyquotes.tar.gz
+2022-10-03T09:27:20+03:0000058	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007339954376220703,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.643471,
+  'stage_start_time' => 1664778440.643471,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000059	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.009222030639648438,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.652683,
+  'stage_start_time' => 1664778440.652683,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000060	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000061	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008229970932006836,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.66091,
+  'stage_start_time' => 1664778440.66091,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000062	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/news.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000063	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-widgets/news.tar.gz
+2022-10-03T09:27:20+03:0000064	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007850170135498047,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.668758,
+  'stage_start_time' => 1664778440.668758,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000065	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.00796198844909668,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.67671,
+  'stage_start_time' => 1664778440.676711,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000066	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000067	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.00797414779663086,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.684681,
+  'stage_start_time' => 1664778440.684681,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000068	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/weather.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000069	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-widgets/weather.tar.gz
+2022-10-03T09:27:20+03:0000070	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008274078369140625,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.692953,
+  'stage_start_time' => 1664778440.692953,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000071	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008107900619506836,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.701051,
+  'stage_start_time' => 1664778440.701051,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000072	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000073	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008536100387573242,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.709585,
+  'stage_start_time' => 1664778440.709585,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000074	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/installer.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000075	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-apps/installer.tar.gz
+2022-10-03T09:27:20+03:0000076	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.007998943328857422,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.717582,
+  'stage_start_time' => 1664778440.717582,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000077	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.0069959163665771484,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.72457,
+  'stage_start_time' => 1664778440.724571,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000078	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000079	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.00828695297241211,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.732853,
+  'stage_start_time' => 1664778440.732853,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000080	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/site.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000081	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-apps/site.tar.gz
+2022-10-03T09:27:20+03:0000082	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008092164993286133,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.740943,
+  'stage_start_time' => 1664778440.740943,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000083	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008033990859985352,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.748967,
+  'stage_start_time' => 1664778440.748967,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000084	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :download via fopen
+2022-10-03T09:27:20+03:0000085	C8	DEBUG	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.008134126663208008,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.757098,
+  'stage_start_time' => 1664778440.757099,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000086	C8	TRACE	1.19Mb	1.50Mb	download_heartbeat
+waInstaller::downloadStandard :Source file is local
+{------------------------------------------------------------
+'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/team.tar.gz'
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000087	C8	WARNING	1.19Mb	1.50Mb	download_heartbeat
+MD5 hash missing for file D:\open_server\OSPanel\domains\utke/wa-sources/wa-apps/team.tar.gz
+2022-10-03T09:27:20+03:0000088	C8	TRACE	1.19Mb	1.50Mb	download_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'download',
+  'state_heartbeat' => 0.00801706314086914,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.765112,
+  'stage_start_time' => 1664778440.765113,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000089	C8	TRACE	1.19Mb	1.50Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.007378101348876953,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.772481,
+  'stage_start_time' => 1664778440.772481,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 0,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000090	C8	TRACE	1.19Mb	1.50Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-content.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-content/',
+  'base_path' => 'wa-content/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000091	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.07438492774963379,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.846861,
+  'stage_start_time' => 1664778440.846861,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 32,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000092	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0013670921325683594,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.848225,
+  'stage_start_time' => 1664778440.848225,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 0.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 32.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000093	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.057579994201660156,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.905801,
+  'stage_start_time' => 1664778440.905801,
+  'stage_performance' => 6998478.746520574,
+  'stage_current_value' => 402944.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 787.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 32.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000094	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.04702901840209961,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.952826,
+  'stage_start_time' => 1664778440.952826,
+  'stage_performance' => 2645743.5798759866,
+  'stage_current_value' => 527360.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 1030.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 32.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:20+03:0000095	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.04223990440368652,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778440,
+  'timestamp_float' => 1664778440.995061,
+  'stage_start_time' => 1664778440.995061,
+  'stage_performance' => 3030669.120386574,
+  'stage_current_value' => 655360.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 1280.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 32.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000096	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.04640913009643555,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778441,
+  'timestamp_float' => 1664778441.041466,
+  'stage_start_time' => 1664778441.041466,
+  'stage_performance' => 3276882.8303765473,
+  'stage_current_value' => 807424.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 1577.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 32.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000097	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 32.0,
+  'calculated_chunk' => 779.0,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 1708.75,
+      2 => 646,
+      3 => 740,
+      4 => 800.25,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000098	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.1135408878326416,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778441,
+  'timestamp_float' => 1664778441.155003,
+  'stage_start_time' => 1664778441.155003,
+  'stage_performance' => 5452034.149778774,
+  'stage_current_value' => 1426432.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 2786.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 64.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000099	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 64.0,
+  'calculated_chunk' => 1045.25,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1708.75,
+      1 => 646,
+      2 => 740,
+      3 => 800.25,
+      4 => 1331.25,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000100	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.6734299659729004,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778441,
+  'timestamp_float' => 1664778441.828429,
+  'stage_start_time' => 1664778441.82843,
+  'stage_performance' => 1465842.0193722688,
+  'stage_current_value' => 2413568.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 4714.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000101	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 775.1,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 646,
+      1 => 740,
+      2 => 800.25,
+      3 => 1331.25,
+      4 => 358,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000102	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.12798309326171875,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778441,
+  'timestamp_float' => 1664778441.956407,
+  'stage_start_time' => 1664778441.956408,
+  'stage_performance' => 1032176.7080753904,
+  'stage_current_value' => 2545664.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 4972.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:21+03:0000103	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 696.3,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 740,
+      1 => 800.25,
+      2 => 1331.25,
+      3 => 358,
+      4 => 252,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000104	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.13754796981811523,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778442,
+  'timestamp_float' => 1664778442.093949,
+  'stage_start_time' => 1664778442.093949,
+  'stage_performance' => 4418606.379650992,
+  'stage_current_value' => 3153408.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 6159.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000105	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 764.1,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 800.25,
+      1 => 1331.25,
+      2 => 358,
+      3 => 252,
+      4 => 1079,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000106	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.2709989547729492,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778442,
+  'timestamp_float' => 1664778442.364942,
+  'stage_start_time' => 1664778442.364943,
+  'stage_performance' => 16662157.675043792,
+  'stage_current_value' => 7668736.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 14978.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000107	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1417.65,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1331.25,
+      1 => 358,
+      2 => 252,
+      3 => 1079,
+      4 => 4068,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000108	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.25104403495788574,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778442,
+  'timestamp_float' => 1664778442.615981,
+  'stage_start_time' => 1664778442.615981,
+  'stage_performance' => 11141916.93783656,
+  'stage_current_value' => 10465792.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 20441.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000109	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1695.45,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 358,
+      1 => 252,
+      2 => 1079,
+      3 => 4068,
+      4 => 2720.25,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000110	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.37776899337768555,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778442,
+  'timestamp_float' => 1664778442.993745,
+  'stage_start_time' => 1664778442.993745,
+  'stage_performance' => 6443303.45512185,
+  'stage_current_value' => 12899840.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 25195.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:22+03:0000111	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1938.5,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 252,
+      1 => 1079,
+      2 => 4068,
+      3 => 2720.25,
+      4 => 1573.25,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:23+03:0000112	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.06080484390258789,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778443,
+  'timestamp_float' => 1664778443.054545,
+  'stage_start_time' => 1664778443.054546,
+  'stage_performance' => 0,
+  'stage_current_value' => 12899840.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:20 +0300',
+  'stage_value' => 13644800.0,
+  'resume' => 
+  array (
+    'offset' => 25195.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:23+03:0000113	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0013811588287353516,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778443,
+  'timestamp_float' => 1664778443.055918,
+  'stage_start_time' => 1664778443.055918,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 25195.0,
+    'tar_size' => 26650.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:23+03:0000114	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-system.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-system/',
+  'base_path' => 'wa-system/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:23+03:0000115	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0402679443359375,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778443,
+  'timestamp_float' => 1664778443.09618,
+  'stage_start_time' => 1664778443.09618,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:23+03:0000116	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1888.1,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1079,
+      1 => 4068,
+      2 => 2720.25,
+      3 => 1573.25,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:24+03:0000117	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 1.6366441249847412,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778444,
+  'timestamp_float' => 1664778444.732818,
+  'stage_start_time' => 1664778444.732819,
+  'stage_performance' => 560915.7562336506,
+  'stage_current_value' => 918016.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 1793.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:24+03:0000118	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1699.7,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 4068,
+      1 => 2720.25,
+      2 => 1573.25,
+      3 => 0,
+      4 => 137,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:24+03:0000119	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.2349081039428711,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778444,
+  'timestamp_float' => 1664778444.967718,
+  'stage_start_time' => 1664778444.967718,
+  'stage_performance' => 1588965.53272394,
+  'stage_current_value' => 1291264.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 2522.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:24+03:0000120	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 963.7,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 2720.25,
+      1 => 1573.25,
+      2 => 0,
+      3 => 137,
+      4 => 388,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:25+03:0000121	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.27230215072631836,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778445,
+  'timestamp_float' => 1664778445.240015,
+  'stage_start_time' => 1664778445.240015,
+  'stage_performance' => 4319046.4027626375,
+  'stage_current_value' => 2467328.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 4819.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:25+03:0000122	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 630.55,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1573.25,
+      1 => 0,
+      2 => 137,
+      3 => 388,
+      4 => 1054.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:25+03:0000123	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.2521538734436035,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778445,
+  'timestamp_float' => 1664778445.492163,
+  'stage_start_time' => 1664778445.492164,
+  'stage_performance' => 5793171.09049769,
+  'stage_current_value' => 3928064.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 7672.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:25+03:0000124	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 598.8,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 137,
+      2 => 388,
+      3 => 1054.5,
+      4 => 1414.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:25+03:0000125	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.31766295433044434,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778445,
+  'timestamp_float' => 1664778445.809821,
+  'stage_start_time' => 1664778445.809821,
+  'stage_performance' => 3302571.23463584,
+  'stage_current_value' => 4977152.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 9721.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:25+03:0000126	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 760.1,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 137,
+      1 => 388,
+      2 => 1054.5,
+      3 => 1414.5,
+      4 => 806.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000127	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.357410192489624,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778446,
+  'timestamp_float' => 1664778446.167225,
+  'stage_start_time' => 1664778446.167225,
+  'stage_performance' => 1452608.2788305478,
+  'stage_current_value' => 5496320.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 10735.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000128	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 803.65,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 388,
+      1 => 1054.5,
+      2 => 1414.5,
+      3 => 806.5,
+      4 => 354.75,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000129	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.23020315170288086,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778446,
+  'timestamp_float' => 1664778446.397423,
+  'stage_start_time' => 1664778446.397423,
+  'stage_performance' => 3616501.7763963705,
+  'stage_current_value' => 6328832.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 12361.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000130	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 902.65,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1054.5,
+      1 => 1414.5,
+      2 => 806.5,
+      3 => 354.75,
+      4 => 883,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000131	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.22956585884094238,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778446,
+  'timestamp_float' => 1664778446.626985,
+  'stage_start_time' => 1664778446.626985,
+  'stage_performance' => 2500204.2569405716,
+  'stage_current_value' => 6902784.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 13482.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000132	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 813.85,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1414.5,
+      1 => 806.5,
+      2 => 354.75,
+      3 => 883,
+      4 => 610.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000133	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.2688589096069336,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778446,
+  'timestamp_float' => 1664778446.895837,
+  'stage_start_time' => 1664778446.895837,
+  'stage_performance' => 3250799.751283868,
+  'stage_current_value' => 7776768.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 15189.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:26+03:0000134	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 689.7,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 806.5,
+      1 => 354.75,
+      2 => 883,
+      3 => 610.5,
+      4 => 793.75,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000135	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.28094482421875,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.176777,
+  'stage_start_time' => 1664778447.176778,
+  'stage_performance' => 0,
+  'stage_current_value' => 7776768.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:23 +0300',
+  'stage_value' => 8921600.0,
+  'resume' => 
+  array (
+    'offset' => 15189.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000136	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0011382102966308594,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.177907,
+  'stage_start_time' => 1664778447.177907,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 15189.0,
+    'tar_size' => 17425.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000137	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/clock.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/clock/',
+  'base_path' => 'wa-widgets/clock/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000138	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.009373903274536133,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.187277,
+  'stage_start_time' => 1664778447.187277,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 524800.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000139	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 528.4,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 354.75,
+      1 => 883,
+      2 => 610.5,
+      3 => 793.75,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000140	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.012720823287963867,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.199994,
+  'stage_start_time' => 1664778447.199994,
+  'stage_performance' => 1127309.1386040233,
+  'stage_current_value' => 14336.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 524800.0,
+  'resume' => 
+  array (
+    'offset' => 28.0,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000141	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 512.5,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 883,
+      1 => 610.5,
+      2 => 793.75,
+      3 => 0,
+      4 => 275.25,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000142	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.030484914779663086,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.230473,
+  'stage_start_time' => 1664778447.230473,
+  'stage_performance' => 0,
+  'stage_current_value' => 14336.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 524800.0,
+  'resume' => 
+  array (
+    'offset' => 28.0,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000143	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0011620521545410156,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.231628,
+  'stage_start_time' => 1664778447.231628,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 28.0,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000144	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/currencyquotes.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/currencyquotes/',
+  'base_path' => 'wa-widgets/currencyquotes/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000145	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.008121013641357422,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.239744,
+  'stage_start_time' => 1664778447.239744,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 524800.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000146	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 335.9,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 610.5,
+      1 => 793.75,
+      2 => 0,
+      3 => 275.25,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000147	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.031664133071899414,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.271404,
+  'stage_start_time' => 1664778447.271404,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 524800.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000148	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0011720657348632812,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.272567,
+  'stage_start_time' => 1664778447.272568,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000149	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/news.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/news/',
+  'base_path' => 'wa-widgets/news/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000150	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.01181793212890625,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.284381,
+  'stage_start_time' => 1664778447.284381,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 524800.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000151	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 213.8,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 793.75,
+      1 => 0,
+      2 => 275.25,
+      3 => 0,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000152	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.03993511199951172,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.324311,
+  'stage_start_time' => 1664778447.324311,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 524800.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000153	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0012640953063964844,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.325566,
+  'stage_start_time' => 1664778447.325566,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 1025.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000154	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/weather.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/weather/',
+  'base_path' => 'wa-widgets/weather/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000155	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.015285968780517578,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.340846,
+  'stage_start_time' => 1664778447.340846,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 1574400.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 3075.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000156	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 55.05,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 275.25,
+      2 => 0,
+      3 => 0,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000157	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.10844898223876953,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.44929,
+  'stage_start_time' => 1664778447.44929,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 1574400.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 3075.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000158	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0010960102081298828,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.450379,
+  'stage_start_time' => 1664778447.450379,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 3075.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000159	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/installer.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/installer/',
+  'base_path' => 'wa-apps/installer/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000160	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.01767706871032715,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.468051,
+  'stage_start_time' => 1664778447.468051,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 2624000.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 5125.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 64.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000161	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 64.0,
+  'calculated_chunk' => 55.05,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 275.25,
+      1 => 0,
+      2 => 0,
+      3 => 0,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000162	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.042678117752075195,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.510725,
+  'stage_start_time' => 1664778447.510725,
+  'stage_performance' => 29766838.730462376,
+  'stage_current_value' => 1270272.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 2624000.0,
+  'resume' => 
+  array (
+    'offset' => 2481.0,
+    'tar_size' => 5125.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 56.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000163	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 56.0,
+  'calculated_chunk' => 1453.5,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 0,
+      2 => 0,
+      3 => 0,
+      4 => 7267.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000164	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.2157750129699707,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.726494,
+  'stage_start_time' => 1664778447.726494,
+  'stage_performance' => 4166825.5459253634,
+  'stage_current_value' => 2169344.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 2624000.0,
+  'resume' => 
+  array (
+    'offset' => 4237.0,
+    'tar_size' => 5125.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 112.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000165	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 112.0,
+  'calculated_chunk' => 1657.0,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 0,
+      2 => 0,
+      3 => 7267.5,
+      4 => 1017.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000166	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.03209185600280762,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.758582,
+  'stage_start_time' => 1664778447.758582,
+  'stage_performance' => 0,
+  'stage_current_value' => 2169344.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 2624000.0,
+  'resume' => 
+  array (
+    'offset' => 4237.0,
+    'tar_size' => 5125.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 112.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000167	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0012509822845458984,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.759823,
+  'stage_start_time' => 1664778447.759823,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 4237.0,
+    'tar_size' => 5125.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 112.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000168	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/site.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/site/',
+  'base_path' => 'wa-apps/site/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000169	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.017171859741210938,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.776989,
+  'stage_start_time' => 1664778447.77699,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 2099200.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 4100.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000170	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1657.0,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 0,
+      2 => 7267.5,
+      3 => 1017.5,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000171	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.2192990779876709,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778447,
+  'timestamp_float' => 1664778447.996284,
+  'stage_start_time' => 1664778447.996284,
+  'stage_performance' => 4529423.321758227,
+  'stage_current_value' => 993280.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 2099200.0,
+  'resume' => 
+  array (
+    'offset' => 1940.0,
+    'tar_size' => 4100.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:27+03:0000172	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1878.2,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 7267.5,
+      2 => 1017.5,
+      3 => 0,
+      4 => 1106,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000173	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.13705205917358398,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778448,
+  'timestamp_float' => 1664778448.133331,
+  'stage_start_time' => 1664778448.133331,
+  'stage_performance' => 0,
+  'stage_current_value' => 993280.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:27 +0300',
+  'stage_value' => 2099200.0,
+  'resume' => 
+  array (
+    'offset' => 1940.0,
+    'tar_size' => 4100.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000174	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.0012159347534179688,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778448,
+  'timestamp_float' => 1664778448.134539,
+  'stage_start_time' => 1664778448.134539,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:28 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 1940.0,
+    'tar_size' => 4100.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000175	C8	TRACE	1.55Mb	1.76Mb	extract_heartbeat
+waInstaller::stageExtract
+{------------------------------------------------------------
+array (
+  'compressed_file' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/team.tar.gz',
+  'target_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/team/',
+  'base_path' => 'wa-apps/team/',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000176	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.026772022247314453,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778448,
+  'timestamp_float' => 1664778448.161306,
+  'stage_start_time' => 1664778448.161306,
+  'stage_performance' => 0.0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:28 +0300',
+  'stage_value' => 5248000.0,
+  'resume' => 
+  array (
+    'offset' => NULL,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000177	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1878.2,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 7267.5,
+      1 => 1017.5,
+      2 => 0,
+      3 => 1106,
+      4 => 0,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000178	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.06808614730834961,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778448,
+  'timestamp_float' => 1664778448.229386,
+  'stage_start_time' => 1664778448.229386,
+  'stage_performance' => 21501233.587342277,
+  'stage_current_value' => 1463808.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:28 +0300',
+  'stage_value' => 5248000.0,
+  'resume' => 
+  array (
+    'offset' => 2859.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000179	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1474.6,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1017.5,
+      1 => 0,
+      2 => 1106,
+      3 => 0,
+      4 => 5249.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000180	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.4586799144744873,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778448,
+  'timestamp_float' => 1664778448.688061,
+  'stage_start_time' => 1664778448.688061,
+  'stage_performance' => 5498691.9008349,
+  'stage_current_value' => 3985920.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:28 +0300',
+  'stage_value' => 5248000.0,
+  'resume' => 
+  array (
+    'offset' => 7785.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:28+03:0000181	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1539.6,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 0,
+      1 => 1106,
+      2 => 0,
+      3 => 5249.5,
+      4 => 1342.5,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000182	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.3120260238647461,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.000082,
+  'stage_start_time' => 1664778449.000083,
+  'stage_performance' => 2935597.1228728113,
+  'stage_current_value' => 4901888.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:28 +0300',
+  'stage_value' => 5248000.0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000183	C8	DEBUG	1.57Mb	1.76Mb	extract_heartbeat
+waInstaller::adjustStageChunk
+{------------------------------------------------------------
+array (
+  'current_chunk' => 128.0,
+  'calculated_chunk' => 1682.95,
+  'performance_data' => 
+  array (
+    'extract' => 
+    array (
+      0 => 1106,
+      1 => 0,
+      2 => 5249.5,
+      3 => 1342.5,
+      4 => 716.75,
+    ),
+  ),
+  'stack_length' => 5,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000184	C8	TRACE	1.55Mb	1.76Mb	extract_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'extract',
+  'state_heartbeat' => 0.024539947509765625,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.024617,
+  'stage_start_time' => 1664778449.024618,
+  'stage_performance' => 0,
+  'stage_current_value' => 4901888.0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:28 +0300',
+  'stage_value' => 5248000.0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000185	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.0011839866638183594,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.025793,
+  'stage_start_time' => 1664778449.025793,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000186	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-content',
+  'target_path' => 'wa-content',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000187	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-content',
+  'newname' => 'wa-content',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000188	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-content',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000189	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.012401819229125977,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.038193,
+  'stage_start_time' => 1664778449.038193,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000190	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.003756999969482422,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.041944,
+  'stage_start_time' => 1664778449.041944,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000191	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-system',
+  'target_path' => 'wa-system',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000192	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-system',
+  'newname' => 'wa-system',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000193	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-system',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000194	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.017724990844726562,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.059667,
+  'stage_start_time' => 1664778449.059667,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000195	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.004673957824707031,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.064331,
+  'stage_start_time' => 1664778449.064331,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000196	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/clock',
+  'target_path' => 'wa-widgets/clock',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000197	C8	DEBUG	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-widgets/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000198	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/clock',
+  'newname' => 'wa-widgets/clock',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000199	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-widgets/clock',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000200	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.010853052139282227,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.07518,
+  'stage_start_time' => 1664778449.07518,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000201	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.005277872085571289,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.080449,
+  'stage_start_time' => 1664778449.080449,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000202	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/currencyquotes',
+  'target_path' => 'wa-widgets/currencyquotes',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000203	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/currencyquotes',
+  'newname' => 'wa-widgets/currencyquotes',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000204	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-widgets/currencyquotes',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000205	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.009844779968261719,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.090291,
+  'stage_start_time' => 1664778449.090291,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000206	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.0054628849029541016,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.095746,
+  'stage_start_time' => 1664778449.095746,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000207	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/news',
+  'target_path' => 'wa-widgets/news',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000208	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/news',
+  'newname' => 'wa-widgets/news',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000209	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-widgets/news',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000210	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.009685039520263672,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.105429,
+  'stage_start_time' => 1664778449.105429,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000211	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.00516510009765625,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.110589,
+  'stage_start_time' => 1664778449.110589,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000212	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/weather',
+  'target_path' => 'wa-widgets/weather',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000213	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/weather',
+  'newname' => 'wa-widgets/weather',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000214	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-widgets/weather',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000215	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.009921073913574219,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.120508,
+  'stage_start_time' => 1664778449.120508,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000216	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.004717111587524414,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.12522,
+  'stage_start_time' => 1664778449.12522,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000217	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/installer',
+  'target_path' => 'wa-apps/installer',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000218	C8	DEBUG	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::mkdir
+{------------------------------------------------------------
+array (
+  'pathname' => 'wa-apps/',
+  'mode' => 511,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000219	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-apps/installer',
+  'newname' => 'wa-apps/installer',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000220	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-apps/installer',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000221	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.009706974029541016,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.134923,
+  'stage_start_time' => 1664778449.134923,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000222	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.0043621063232421875,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.139279,
+  'stage_start_time' => 1664778449.139279,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000223	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/site',
+  'target_path' => 'wa-apps/site',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000224	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-apps/site',
+  'newname' => 'wa-apps/site',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000225	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-apps/site',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000226	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.009713172912597656,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.14899,
+  'stage_start_time' => 1664778449.14899,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000227	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.004770994186401367,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.153756,
+  'stage_start_time' => 1664778449.153756,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000228	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace
+{------------------------------------------------------------
+array (
+  'source_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/team',
+  'target_path' => 'wa-apps/team',
+  'store_prev' => false,
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000229	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::rename replace current version code
+{------------------------------------------------------------
+array (
+  'oldname' => 'wa-data/protected/wa-installer/C8/update/wa-apps/team',
+  'newname' => 'wa-apps/team',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000230	C8	TRACE	1.55Mb	1.76Mb	replace_heartbeat
+waInstaller::stageReplace replace current version code
+{------------------------------------------------------------
+array (
+  'target_path' => 'wa-apps/team',
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000231	C8	TRACE	1.55Mb	1.76Mb	replace_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'replace',
+  'state_heartbeat' => 0.009919166564941406,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.163671,
+  'stage_start_time' => 1664778449.163672,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000232	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.00466609001159668,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.16833,
+  'stage_start_time' => 1664778449.16833,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000233	C8	DEBUG	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.007277965545654297,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.175606,
+  'stage_start_time' => 1664778449.175606,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000234	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.00943899154663086,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.185042,
+  'stage_start_time' => 1664778449.185042,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000235	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.00428318977355957,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.189319,
+  'stage_start_time' => 1664778449.189319,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000236	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.006902217864990234,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.196219,
+  'stage_start_time' => 1664778449.196219,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000237	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.006381988525390625,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.202595,
+  'stage_start_time' => 1664778449.202595,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000238	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.0070629119873046875,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.209656,
+  'stage_start_time' => 1664778449.209656,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000239	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.00791311264038086,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.217561,
+  'stage_start_time' => 1664778449.217561,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000240	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.007183074951171875,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.224742,
+  'stage_start_time' => 1664778449.224742,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000241	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.00761103630065918,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.232344,
+  'stage_start_time' => 1664778449.232344,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000242	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.007424116134643555,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.239766,
+  'stage_start_time' => 1664778449.239766,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000243	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.007455110549926758,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.247206,
+  'stage_start_time' => 1664778449.247206,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000244	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.008012056350708008,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.255215,
+  'stage_start_time' => 1664778449.255215,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000245	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.009202957153320312,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.264409,
+  'stage_start_time' => 1664778449.264409,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000246	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.008018970489501953,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.272424,
+  'stage_start_time' => 1664778449.272425,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000247	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.008588075637817383,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.281003,
+  'stage_start_time' => 1664778449.281003,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000248	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.007860898971557617,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.288861,
+  'stage_start_time' => 1664778449.288861,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000249	C8	TRACE	1.55Mb	1.76Mb	cleanup_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.007606029510498047,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.296458,
+  'stage_start_time' => 1664778449.296458,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000250	C8	TRACE	1.55Mb	1.76Mb	cleanup_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'cleanup',
+  'state_heartbeat' => 0.007069110870361328,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.303526,
+  'stage_start_time' => 1664778449.303526,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000251	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.006922006607055664,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.310441,
+  'stage_start_time' => 1664778449.310441,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000252	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00751805305480957,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-content',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.317957,
+  'stage_start_time' => 1664778449.317957,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000253	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007037162780761719,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.324988,
+  'stage_start_time' => 1664778449.324988,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000254	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007415056228637695,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-system',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.332401,
+  'stage_start_time' => 1664778449.332401,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000255	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0071868896484375,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.339579,
+  'stage_start_time' => 1664778449.339579,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000256	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007934808731079102,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/clock',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.347512,
+  'stage_start_time' => 1664778449.347512,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000257	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007025957107543945,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.354532,
+  'stage_start_time' => 1664778449.354532,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000258	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.006949901580810547,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/currencyquotes',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.36148,
+  'stage_start_time' => 1664778449.36148,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000259	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.008270025253295898,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.369741,
+  'stage_start_time' => 1664778449.369742,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000260	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0076770782470703125,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/news',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.377415,
+  'stage_start_time' => 1664778449.377415,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000261	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007651090621948242,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.385057,
+  'stage_start_time' => 1664778449.385057,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000262	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007719993591308594,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-widgets/weather',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.392774,
+  'stage_start_time' => 1664778449.392774,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000263	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007818937301635742,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.400584,
+  'stage_start_time' => 1664778449.400584,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000264	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.00755000114440918,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/installer',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.408132,
+  'stage_start_time' => 1664778449.408132,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000265	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007400035858154297,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.415524,
+  'stage_start_time' => 1664778449.415524,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000266	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0071909427642822266,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/site',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.422714,
+  'stage_start_time' => 1664778449.422714,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000267	C8	TRACE	1.55Mb	1.76Mb	update_heartbeat
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.007256984710693359,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'heartbeat',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.429961,
+  'stage_start_time' => 1664778449.429961,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000268	C8	TRACE	1.55Mb	1.76Mb	update_complete
+waInstaller::setState
+{------------------------------------------------------------
+array (
+  'start_time' => 1664778440,
+  'start_time_float' => 1664778440.352838,
+  'elapsed_time' => 0.0,
+  'stage' => false,
+  'stage_name' => 'update',
+  'state_heartbeat' => 0.0074291229248046875,
+  'thread_id' => 'C8',
+  'chunk_id' => 'wa-apps/team',
+  'stage_status' => 'complete',
+  'timestamp' => 1664778449,
+  'timestamp_float' => 1664778449.437388,
+  'stage_start_time' => 1664778449.437388,
+  'stage_performance' => 0,
+  'stage_current_value' => 0,
+  'datetime' => 'Mon, 03 Oct 2022 09:27:29 +0300',
+  'stage_value' => 0,
+  'resume' => 
+  array (
+    'offset' => 9574.0,
+    'tar_size' => 10250.0,
+  ),
+  'debug' => 
+  array (
+    'block_performance' => 128.0,
+    'additional' => NULL,
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000269	C8	DEBUG	1.55Mb	1.76Mb	update_complete
+waInstaller::update
+{------------------------------------------------------------
+array (
+  'update_list' => 
+  array (
+    0 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-content.tar.gz',
+      'target' => 'wa-content/',
+      'slug' => 'wa-content',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-content/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-content.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    1 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-system.tar.gz',
+      'target' => 'wa-system/',
+      'slug' => 'wa-system',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-system/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-system.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    5 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/clock.tar.gz',
+      'target' => 'wa-widgets/clock/',
+      'slug' => 'wa-widgets/clock',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/clock/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/clock.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    6 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/currencyquotes.tar.gz',
+      'target' => 'wa-widgets/currencyquotes/',
+      'slug' => 'wa-widgets/currencyquotes',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/currencyquotes/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/currencyquotes.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    7 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/news.tar.gz',
+      'target' => 'wa-widgets/news/',
+      'slug' => 'wa-widgets/news',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/news/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/news.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    8 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/weather.tar.gz',
+      'target' => 'wa-widgets/weather/',
+      'slug' => 'wa-widgets/weather',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-widgets/weather/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-widgets/weather.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    2 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/installer.tar.gz',
+      'target' => 'wa-apps/installer/',
+      'slug' => 'wa-apps/installer',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/installer/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/installer.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    3 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/site.tar.gz',
+      'target' => 'wa-apps/site/',
+      'slug' => 'wa-apps/site',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/site/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/site.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+    4 => 
+    array (
+      'source' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/team.tar.gz',
+      'target' => 'wa-apps/team/',
+      'slug' => 'wa-apps/team',
+      'extract_path' => 'wa-data/protected/wa-installer/C8/update/wa-apps/team/',
+      'pass' => false,
+      'skipped' => false,
+      'dependent' => false,
+      'current_size' => 0,
+      'archive' => 'D:\\open_server\\OSPanel\\domains\\utke/wa-sources/wa-apps/team.tar.gz',
+      'backup' => false,
+      'info' => NULL,
+    ),
+  ),
+)
+}------------------------------------------------------------
+2022-10-03T09:27:29+03:0000270	C8	TRACE	1.66Mb	1.76Mb	update_complete
+waInstaller::__destruct called
+
+
+
